@@ -16,7 +16,6 @@ class TabelKategori extends Migration
         Schema::create('kategori', function (Blueprint $table) {
             $table->id();
             $table->string('nama_kategori',20)->unique();
-            $table->rememberToken();
             $table->timestamps();
         });
     }
