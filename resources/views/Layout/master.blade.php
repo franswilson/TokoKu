@@ -53,7 +53,7 @@
           <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Master</h6>
         </li>
         <li class="nav-item ">
-          <a class="nav-link {{ set_active('kategori.index') }}" href="{{url('kategori')}}">
+          <a class="nav-link {{ set_active('kategori') }}" href="{{url('kategori')}}">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
               <i class="ni ni-book-bookmark text-primary text-sm opacity-10"></i>
             </div>

@@ -54,6 +54,7 @@ class KategoriController extends Controller
         $k = new Kategori;
         $k->nama_kategori = $request->nama_kategori;
         $k->save();
+        
         return redirect('kategori');
 
     }

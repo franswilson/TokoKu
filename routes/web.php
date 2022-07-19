@@ -27,6 +27,7 @@ Route::post('actionlogin', [AuthController::class, 'actionlogin'])->name('action
 Route::get('logout', 'LoginController@logout')->name('logout');
 
 Route::get('kategori', [KategoriController::class, 'index'])->name('kategori');
+Route::post('kategori/store', [KategoriController::class, 'store'])->name('kategori.store');
 
 // Route::resource('kategori', KategoriController::class);
 
